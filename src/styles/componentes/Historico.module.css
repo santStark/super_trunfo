@@ -1,0 +1,67 @@
+.historicoContainer{
+    width: 100%;
+    height: 20vh;
+    min-height: 110px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fbfbfb;
+    overflow-y: auto;
+}
+
+.historicoDesafioBlock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.historicoDesafioBlock h2{
+    width: 70px;
+}
+
+.itemCar{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.itemCar h4{
+    margin-left: 5px;
+    color: #ff0808;
+}
+
+.itemCar strong{
+    margin-left: 5px;
+    color: #023a6b;
+}
+
+.itemCar img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+.itemRes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.itemRes h2{
+    color: #ff7600;
+}
+

@@ -1,0 +1,69 @@
+.placarContainer{
+    width: 100%;
+    height: 20vh;
+    min-height: 110px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fbfbfb;
+}
+
+.player{
+
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+
+}
+
+.player strong{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 720px){
+
+    .player{
+        padding: 0px 0.2rem;
+    }
+
+    .player strong{
+        display:none;
+    }
+
+    .player img{
+
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+.player img{
+
+    width: 6rem;
+    height: 6rem;
+    border:0px;
+    border-radius: 50%;
+}
+
+.placar{
+
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.placar strong{
+    font-size: 2rem;
+}
+
+.placar span{
+    font-size: 1.2rem;
+}

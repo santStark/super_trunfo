@@ -1,0 +1,76 @@
+[
+    {
+        "nome":"Bugatti Veyron", 
+        "img":"/bugatti.jpg",
+        "velocidade":350,
+        "forca":660,
+        "peso":1255
+    }, 
+    {
+        "nome":"Porsche Carrera", 
+        "img":"/porsche.jpg",
+        "velocidade":295,
+        "forca":400,
+        "peso":1290
+    },
+
+    {
+        "nome":"Ferrari 488", 
+        "img":"/ferrari.jpg",
+        "velocidade":309,
+        "forca":381,
+        "peso":1405
+    }, 
+    {
+        "nome":"Lamborghini", 
+        "img":"/lamborghini.jpg",
+        "velocidade":320,
+        "forca":570,
+        "peso":1600
+    },
+
+    {
+        "nome":"Bmw Z4", 
+        "img":"/bmw.jpg",
+        "velocidade":300,
+        "forca":480,
+        "peso":1375
+    }, 
+    {
+        "nome":"Jeep Grand Cherokee", 
+        "img":"/jeep.jpg",
+        "velocidade":206,
+        "forca":231,
+        "peso":2191
+    },
+
+    {
+        "nome":"Mercedes CLK", 
+        "img":"/mercedes.jpg",
+        "velocidade":300,
+        "forca":480,
+        "peso":1375
+    }, 
+    {
+        "nome":"Jeep Grand Cherokee", 
+        "img":"/jeep.jpg",
+        "velocidade":320,
+        "forca":218,
+        "peso":1530
+    },
+
+    {
+        "nome":"Audi S3", 
+        "img":"/audi.jpg",
+        "velocidade":243,
+        "forca":225,
+        "peso":1420
+    }, 
+    {
+        "nome":"Jaguar XF", 
+        "img":"/jaguar.jpg",
+        "velocidade":209,
+        "forca":240,
+        "peso":1735
+    }
+]

@@ -1,0 +1,118 @@
+.cartaContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 12rem;
+    height: 16rem;
+    border:1px solid gray;
+    border-radius: 5px;
+
+}
+
+.cartaContainer img{
+    width: 10rem;
+    height: 7rem;
+}
+
+.cartaContainer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.cartaRadiosContainer{
+    border:1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+
+    margin:3px 0px;
+    padding: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cartaRadiosContainer:hover{
+
+    color:white;
+    background: #4c4cae;
+    
+
+}
+
+.cartaRadiosContainer label{
+    cursor: pointer;
+
+}
+
+.cartaRadiosContainer input{
+    display: none;
+}
+
+.cartaRadiosContainer input:checked + label{
+    color:red;
+}
+
+.imgOculta{
+    width: 10rem;
+    height: 7rem;
+    background: #c7c7c7;
+}
+
+.labelOCulto{
+    border:1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+
+    margin:3px 0px;
+    padding: 1px;
+    text-align: center;
+    background: #c7c7c7;
+    color:#c7c7c7;
+
+}
+
+.cartaContainer h3{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+.nameOculta{
+    background: #c7c7c7;
+    color:#c7c7c7;
+}
+
+@media (max-width: 720px){
+
+    .cartaContainer{
+        flex-direction: row;
+        width: 95%;
+        height: 40%;
+    }
+
+    .cartaRadiosContainer{
+        width: 60%;
+    }
+
+    .cartaContainer img{
+
+        margin-left: 5px;
+    }
+
+    .labelOCulto{
+        width: 60%;
+    }
+
+    .imgOculta{
+        margin-left: 5px;
+    }
+
+}
